@@ -1,0 +1,8 @@
+#home{
+    background-color: #f6f9ff;
+}
+
+.left-home .first{
+    display: inline-flex;
+    background-color: lightblue;
+}
