@@ -1,8 +1,12 @@
-#home{
-    background-color: #f6f9ff;
+.first{
+    background-color: #e5f1fe;
 }
-
-.left-home .first{
-    display: inline-flex;
-    background-color: lightblue;
+.first:hover{
+    background-color: #007BFF;
+}
+.first:hover .second{
+    color: white;
+}
+.second{
+    color:  #0d6efd;
 }

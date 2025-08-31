@@ -1,33 +1,38 @@
-.section{
+.section {
     height: 25vh;
     background-color: #f6f9ff;
 }
 
-.nav-bar{
+.nav-bar {
     height: 70px;
     top: 0;
     left: 0;
     right: 0;
     position: fixed;
+    background: rgb(248, 249, 250, 0.7);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    z-index: 1000;
 }
 
-.right-nav button{
+/* .right-nav button {
     border-radius: 30px;
-}
+} */
 
-.middle-nav li{
+.middle-nav li {
     transition: all 0.3s;
 }
 
-.middle-nav li:hover{
-    color: #0d6efd;;
+.middle-nav li:hover {
+    color: #0d6efd;
+    ;
 }
 
-.active{
+.active {
     color: #0d6efd;
 }
 
-.hamburger{
+.hamburger {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -39,28 +44,30 @@
     z-index: 12;
 }
 
-.ham2{
+.ham2 {
     width: 45px;
     height: 2px;
     background-color: black;
     transition: all 0.5s;
 }
 
-.active-ham .ham2:nth-child(1){
+.active-ham .ham2:nth-child(1) {
     transform: rotate(45deg);
     position: relative;
     top: 12px;
 }
 
-.active-ham .ham2:nth-child(2){
+.active-ham .ham2:nth-child(2) {
     opacity: 0;
 }
-.active-ham .ham2:nth-child(3){
+
+.active-ham .ham2:nth-child(3) {
     transform: rotate(-45deg);
     position: relative;
     top: -7px;
 }
-.mobile{
+
+.mobile {
     position: absolute;
     top: 80px;
     left: 40px;
@@ -78,27 +85,28 @@
     z-index: 9;
 }
 
-.active-mobile{
+.active-mobile {
     transform: translateY(0);
 }
 
 .backdrop {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100vh;
-  background: rgba(255, 255, 255, 0.3); /* light overlay */
-  backdrop-filter: blur(8px);
-  z-index: 5;
-  display: none;
-  transition: all 0.3s;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(255, 255, 255, 0.3);
+    /* light overlay */
+    backdrop-filter: blur(8px);
+    z-index: 5;
+    display: none;
+    transition: all 0.3s;
 }
 
 .active-backdrop {
-  display: block;
+    display: block;
 }
 
-.mobile li:hover{
+.mobile li:hover {
     color: #0d6efd;
 }

@@ -9,3 +9,8 @@
 .pointer{
   cursor: pointer;
 }
+
+:root{
+  --main-color: #007BFF;
+  --black-color: #374151;
+}
