@@ -25,6 +25,8 @@ function Client() {
             <GoDotFill className='fw-bold fs-4 pointer'/>
             <GoDotFill className='fw-bold fs-4 pointer'/>
             <GoDotFill className='fw-bold fs-4 pointer'/>
+            <GoDotFill className='fw-bold fs-4 pointer'/>
+            <GoDotFill className='fw-bold fs-4 pointer'/>
         </div>
         </div>
     </div>
