@@ -1,0 +1,18 @@
+.bluebox{
+    height: 420px;
+    background-color: #007BFF;
+}
+
+.box-content button{
+    background-color: #61a8f4;
+    padding: 12px 35px;
+    outline: none;
+    border: 2px solid white;
+    border-radius: 30px;
+    color: white;
+}
+
+.box-content button:hover{
+    background-color: white;
+    color: #007BFF;
+}
