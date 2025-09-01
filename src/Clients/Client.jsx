@@ -11,8 +11,8 @@ import { GoDotFill } from "react-icons/go";
 function Client() {
   return (
     <div className='container mb-5'style={{marginTop:"5rem"}}>
-        <div class="row gap-4">
-        <div class="col-12 clients flex-wrap d-flex align-items-center justify-content-center gap-sm-5 gap-3">
+        <div className="row gap-4">
+        <div className="col-12 clients flex-wrap d-flex align-items-center justify-content-center gap-sm-5 gap-3">
            <img src={client1} alt="" className='client'/>
            <img src={client2} alt="" className='client'/>
            <img src={client3} alt="" className='client d-none d-sm-block'/>
@@ -20,7 +20,7 @@ function Client() {
            <img src={client5} alt="" className='client d-none d-sm-block'/>
            <img src={client6} alt="" className='client d-none d-sm-block'/>
         </div>
-        <div class="col-12 dots d-flex align-items-center justify-content-center gap-1">
+        <div className="col-12 dots d-flex align-items-center justify-content-center gap-1">
             <GoDotFill className='fw-bold fs-4 pointer'/>
             <GoDotFill className='fw-bold fs-4 pointer'/>
             <GoDotFill className='fw-bold fs-4 pointer'/>

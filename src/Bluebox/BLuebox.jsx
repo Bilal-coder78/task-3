@@ -1,14 +1,15 @@
 import React from 'react'
 import "./bluebox.css"
+import { Link } from 'react-scroll'
 
 function BLuebox() {
   return (
-    <div class="container-fluid container-sm mb-5"style={{marginTop:"6rem"}}>
-        <div class="bluebox d-flex align-items-center justify-centent-center w-100 rounded-4">
-            <div class="box-content text-white px-5 text-center">
+    <div className="container-fluid container-sm mb-5"style={{marginTop:"6rem"}}>
+        <div className="bluebox d-flex align-items-center justify-centent-center w-100 rounded-4">
+            <div className="box-content text-white px-5 text-center">
                 <h4 className='fs-1 fw-light my-sm-4 mb-3'>Maecenas tempus tellus eget condimentum</h4>
                 <p className='my-sm-4 fw-light'>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel dgfudis adfuga gua</p>
-                <div class="button"><button className='my-sm-4'>Call To Action</button></div>
+                <Link to='home' className="button"><button className='my-sm-4'>Call To Action</button></Link>
             </div>
         </div>
     </div>
