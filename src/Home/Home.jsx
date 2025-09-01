@@ -35,28 +35,28 @@ function Home() {
       </div>
       <div class="container w-100">
         <div class="row shadow-lg rounded-5 mb-4 mt-4 g-5 pb-5 p-4">
-          <div class="col-lg-3 col-md-6 col-12 d-flex align-items-center justify-content-start gap-2">
+          <div class="col-lg-3 col-md-6 d-flex align-items-center justify-content-start gap-2">
             <div class="p-3 rounded-5 first"> <BsTrophy className='fs-4 second' /></div>
             <div>
               <h5 className='fw-medium'>3x Won Awards</h5>
               <p className='fw-light'>Vestibulum ante ipsum</p>
             </div>
           </div>
-          <div class="col-lg-3 col-md-6 col-12 d-flex align-items-center justify-content-start gap-2">
+          <div class="col-lg-3 col-md-6 d-flex align-items-center justify-content-start gap-2">
             <div class="p-3 rounded-5 first"><BsBriefcase className='fs-4 second' /></div>
             <div>
               <h5 className='fw-medium'>6.5k Faucibus</h5>
               <p className='fw-light'>Nullam quis ante</p>
             </div>
           </div>
-          <div class="col-lg-3 col-md-6 col-12 d-flex align-items-center justify-content-start gap-2">
+          <div class="col-lg-3 col-md-6 d-flex align-items-center justify-content-start gap-2">
             <div class="p-3 rounded-5 first"> <BsGraphUp className='fs-4 second' /></div>
             <div>
               <h5 className='fw-medium'>80k Mauris</h5>
               <p className='fw-light'>Etiam sit amet orci</p>
             </div>
           </div>
-          <div class="col-lg-3 col-md-6 col-12 d-flex align-items-center justify-content-start gap-2">
+          <div class="col-lg-3 col-md-6 d-flex align-items-center justify-content-start gap-2">
             <div class="p-3 rounded-5 first">  <BsAward className='fs-4 second' /></div>
             <div>
               <h5 className='fw-medium'>6x Phasellus</h5>
