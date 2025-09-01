@@ -6,6 +6,7 @@ import Client from './Clients/Client';
 import Home from './Home/Home';
 import Mobile from './Mobile/Mobile';
 import Nav from './Navbar/Nav';
+import Service from './Services/Service';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Mobile/>
       <BLuebox/>
       <Client/>
+      <Service/>
     </>
   );
 }
