@@ -1,0 +1,15 @@
+.client{
+    max-height: 40px;
+    opacity: 0.2;
+    transition: all 0.5s;
+    filter: brightness(50%);
+}
+
+.client:hover{
+    filter: brightness(100%);
+    opacity: 1;
+}
+
+.dots svg{
+    color: gray;
+}
