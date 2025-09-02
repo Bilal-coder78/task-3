@@ -40,9 +40,9 @@ function Contact() {
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-7">
-                        <div class="contact-form bg-white p-5 rounded-4 d-flex flex-column gap-2">
-                            <div class="content d-flex flex-column gap-2">
+                    <div className="col-lg-7">
+                        <div className="contact-form bg-white p-5 rounded-4 d-flex flex-column gap-2">
+                            <div className="content d-flex flex-column gap-2">
                             <h3 className='fw-medium' style={{ color: "var(--black-color)" }}>Get In Touch</h3>
                             <p className='fw-light'>Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis.</p>
                             </div>
@@ -51,7 +51,7 @@ function Contact() {
                                 <input className='p-3 ' type="email" placeholder='Your Email'/>
                                 <input className='p-3' type="text" placeholder='Subject'/>
                                 <textarea name="" className='p-2' placeholder='Message' id="" cols="29" rows="6"></textarea>
-                                <div class="d-flex justify-content-center"><button className='btn btn-primary p-3 rounded-5'>Send Message</button></div>
+                                <div className="d-flex justify-content-center"><button className='btn btn-primary p-3 rounded-5'>Send Message</button></div>
                             </form>
                             {/* <form className='form d-flex flex-column gap-4'>
                                 <div className='flex-lg-row flex-column'>
@@ -60,7 +60,7 @@ function Contact() {
                                 </div>
                                 <input className='p-3' type="text" placeholder='Subject'/>
                                 <textarea name="" className='p-2' placeholder='Message' id="" cols="29" rows="6"></textarea>
-                                <div class="d-flex justify-content-center"><button className='btn btn-primary p-3 rounded-5'>Send Message</button></div>
+                                <div className="d-flex justify-content-center"><button className='btn btn-primary p-3 rounded-5'>Send Message</button></div>
                             </form> */}
                         </div>
                     </div>

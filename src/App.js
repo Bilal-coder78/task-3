@@ -14,18 +14,18 @@ import Service from './Services/Service';
 function App() {
   return (
     <>
-      <Nav/>
-      <Home/>
-      <About/>
-      <Card/>
-      <Mobile/>
-      <BLuebox/>
-      <Client/>
+      <Nav />
+      <Home />
+      <About />
+      <Card />
+      <Mobile />
+      <BLuebox />
+      <Client />
       <div style={{ backgroundColor: "#f4f9fd" }}>
-      <Service/>
-      <Bluebox2/>
-      <Contact/>
-      <Footer/>
+        <Service />
+        <Bluebox2 />
+        <Contact />
+        <Footer />
       </div>
     </>
   );

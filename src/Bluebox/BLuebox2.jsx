@@ -4,7 +4,7 @@ import { Link } from 'react-scroll'
 
 function Bluebox2() {
   return (
-    <div class="" style={{ backgroundColor: "#f4f9fd" }}>
+    <div className="" style={{ backgroundColor: "#f4f9fd" }}>
       <div className="box_2">
         <div className="container-fluid mb-5" style={{ marginTop: "5rem" }}>
           <div className="bluebox d-flex align-items-center justify-centent-center w-100 rounded-4">

@@ -35,7 +35,7 @@ function Home() {
         </div>
       </div>
       <div className="container w-100">
-        <div className="row shadow-lg rounded-5 mb-4 mt-4 g-5 pb-5 p-4">
+        <div className="row shadow-lg rounded-5 mb-4 mt-4 g-sm-5 g-4 pb-5 p-4">
           <div className="col-lg-3 col-md-6 d-flex align-items-center justify-content-start gap-2">
             <div className="p-3 rounded-5 first"> <BsTrophy className='fs-4 second' /></div>
             <div>

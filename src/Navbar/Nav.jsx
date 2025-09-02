@@ -9,7 +9,7 @@ function Nav() {
     return (
         <div className="section">
             <nav className=' nav-bar rounded-5 navbar-expand-lg shadow mt-4 container d-flex align-items-center justify-content-between'>
-                <div className="navbar-brand p-4">iLanding</div>
+                <div className="navbar-brand p-4 fs-5">iLanding</div>
                 <div className="middle-nav">
                     <ul className='navbar-nav gap-4 d-none d-lg-flex'>
                         <Link to='home' activeClass='active' spy={true} smooth={true} duration={600} className='nav-item pointer text-decoration-none text-black'><li>Home</li></Link>
