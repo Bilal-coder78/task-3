@@ -10,7 +10,7 @@ function BLuebox({
 }) {
   return (
     <div className="container mb-5"style={{marginTop:"6rem"}}>
-        <div className="bluebox d-flex align-items-center justify-centent-center w-100 rounded-4">
+        <div className="bluebox d-flex align-items-center justify-content-center w-100 rounded-4">
             <div className="box-content text-white px-5 text-center">
                 <h4 className='fs-1 fw-light my-sm-4 mb-3'>{title}</h4>
                 <p className='my-sm-4 fw-light'>{description}</p>
