@@ -8,7 +8,7 @@ import { BiSupport } from "react-icons/bi";
 
 function Service() {
     return (
-        <div style={{ backgroundColor: "#f4f9fd" }}>
+       <>
             <div className='container' id='service'>
                 <h1 className='text-center mt-5' style={{ color: "var(--black-color)" }}>Services</h1>
                 <p className='text-center mt-3 mb-5'>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
@@ -134,7 +134,7 @@ function Service() {
                     </div>
                 </div>
             </div>
-        </div>
+            </>
     )
 }
 
