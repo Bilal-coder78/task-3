@@ -1,0 +1,17 @@
+.one{
+    background-color: #a7cffa;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+}
+.one:hover{
+    background-color: #c4dcf7;
+}
+.one:hover .two{
+    color: white;
+}
+.two{
+    color:  white;
+}

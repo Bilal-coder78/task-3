@@ -4,6 +4,7 @@ import BLuebox from './Bluebox/BLuebox';
 import Bluebox2 from './Bluebox/BLuebox2';
 import Card from './Cards/Card';
 import Client from './Clients/Client';
+import Contact from './Contact/Contact';
 import Home from './Home/Home';
 import Mobile from './Mobile/Mobile';
 import Nav from './Navbar/Nav';
@@ -21,6 +22,7 @@ function App() {
       <Client/>
       <Service/>
       <Bluebox2/>
+      <Contact/>
     </>
   );
 }
