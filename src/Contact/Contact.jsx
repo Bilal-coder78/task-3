@@ -7,7 +7,7 @@ import { MdOutlineMailOutline } from "react-icons/md";
 function Contact() {
     return (
         <div class="" style={{ backgroundColor: "#f4f9fd" }}>
-            <div className='container' style={{ marginTop: "6rem" }}>
+            <div className='container' id='contact' style={{ marginTop: "6rem" }}>
                 <h1 className='text-center' style={{ color: "var(--black-color)" }}>Contact</h1>
                 <p className='text-center mb-5 mt-3'>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
                 <div className="row">
