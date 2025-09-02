@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Footer.css"
+import { Link } from 'react-scroll'
 import { PiXLogoBold } from "react-icons/pi";
 import { FaFacebook } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
@@ -68,7 +69,7 @@ function Footer() {
                 </div>
                 <hr />
                 <footer>
-                    <p className='text-center p-3'>© Copyright <strong>iLanding</strong> All Rights Reserved <br />
+                    <p className='text-center p-3'>© Copyright <Link to='nav' smooth={true} duration={800}><strong className='pointer'>iLanding</strong></Link> All Rights Reserved <br />
                         Designed by <span className='pointer' style={{color:"var(--main-color)"}}>BootstrapMade</span>
                     </p>
                 </footer>

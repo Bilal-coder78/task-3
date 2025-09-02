@@ -7,7 +7,7 @@ function Nav() {
     let menu = useRef()
     let backdrop = useRef()
     return (
-        <div className="section">
+        <div className="section"id='nav'>
             <nav className=' nav-bar rounded-5 navbar-expand-lg shadow mt-4 container d-flex align-items-center justify-content-between'>
                 <div className="navbar-brand p-4 fs-5">iLanding</div>
                 <div className="middle-nav">

@@ -9,7 +9,7 @@ import { BiSupport } from "react-icons/bi";
 function Service() {
     return (
        <>
-            <div className='container' id='service'>
+            <div className='container pt-2' id='service'>
                 <h1 className='text-center mt-5' style={{ color: "var(--black-color)" }}>Services</h1>
                 <p className='text-center mt-3 mb-5'>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
                 <div className="row gap-3 mb-4 align-items-center justify-content-center">
@@ -79,18 +79,6 @@ function Service() {
                                 <div id="collapseTwo" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
                                     <div className="accordion-body">
                                         <strong>This is the second item’s accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It’s also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="accordion-item mb-2">
-                                <h2 className="accordion-header">
-                                    <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                        Accordion Item #3
-                                    </button>
-                                </h2>
-                                <div id="collapseThree" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                                    <div className="accordion-body">
-                                        <strong>This is the third item’s accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It’s also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
                                     </div>
                                 </div>
                             </div>
