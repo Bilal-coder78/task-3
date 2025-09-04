@@ -9,6 +9,33 @@ import { BsGraphUp } from "react-icons/bs";
 import { BsAward } from "react-icons/bs";
 import { Link } from 'react-scroll';
 
+const boxes = [
+  {
+    id: 1,
+    icon: <BsTrophy className='fs-4 second' />,
+    des1: "3x Won Awards",
+    des2: "Vestibulum ante ipsum"
+  },
+  {
+    id: 2,
+    icon: <BsBriefcase className='fs-4 second' />,
+    des1: "6.5k Faucibus",
+    des2: "Nullam quis ante"
+  },
+  {
+    id: 3,
+    icon: <BsGraphUp className='fs-4 second' />,
+    des1: "80k Mauris",
+    des2: "Etiam sit amet orci"
+  },
+  {
+    id: 4,
+    icon: <BsAward className='fs-4 second' />,
+    des1: "6x Phasellus",
+    des2: "Vestibulum ante ipsum"
+  },
+]
+
 function Home() {
   return (
     <>
@@ -36,34 +63,17 @@ function Home() {
       </div>
       <div className="container w-100">
         <div className="row shadow-lg rounded-5 mb-4 mt-4 g-sm-5 g-4 pb-5 p-4">
-          <div className="col-lg-3 col-md-6 d-flex align-items-center justify-content-start gap-2">
-            <div className="p-3 rounded-5 first"> <BsTrophy className='fs-4 second' /></div>
-            <div>
-              <h5 className='fw-medium'>3x Won Awards</h5>
-              <p className='fw-light'>Vestibulum ante ipsum</p>
-            </div>
-          </div>
-          <div className="col-lg-3 col-md-6 d-flex align-items-center justify-content-start gap-2">
-            <div className="p-3 rounded-5 first"><BsBriefcase className='fs-4 second' /></div>
-            <div>
-              <h5 className='fw-medium'>6.5k Faucibus</h5>
-              <p className='fw-light'>Nullam quis ante</p>
-            </div>
-          </div>
-          <div className="col-lg-3 col-md-6 d-flex align-items-center justify-content-start gap-2">
-            <div className="p-3 rounded-5 first"> <BsGraphUp className='fs-4 second' /></div>
-            <div>
-              <h5 className='fw-medium'>80k Mauris</h5>
-              <p className='fw-light'>Etiam sit amet orci</p>
-            </div>
-          </div>
-          <div className="col-lg-3 col-md-6 d-flex align-items-center justify-content-start gap-2">
-            <div className="p-3 rounded-5 first">  <BsAward className='fs-4 second' /></div>
-            <div>
-              <h5 className='fw-medium'>6x Phasellus</h5>
-              <p className='fw-light'>Vestibulum ante ipsum</p>
-            </div>
-          </div>
+          {boxes.map((box) => {
+            return (
+              <div key={box.id} className="col-lg col-md-6 d-flex align-items-center justify-content-start gap-2">
+                <div className="p-3 rounded-5 first"> {box.icon}</div>
+                <div>
+                  <h5 className='fw-medium'>{box.des1}</h5>
+                  <p className='fw-light'>{box.des2}</p>
+                </div>
+              </div>
+            )
+          })}
         </div>
       </div>
     </>
