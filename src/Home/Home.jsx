@@ -62,7 +62,7 @@ function Home() {
         </div>
       </div>
       <div className="container w-100">
-        <div className="row shadow-lg rounded-5 mb-4 mt-4 g-sm-5 g-4 pb-5 p-4">
+        <div className="row shadow rounded-5 mb-4 mt-4 g-sm-5 g-4 pb-5 p-4">
           {boxes.map((box) => {
             return (
               <div key={box.id} className="col-lg col-md-6 d-flex align-items-center justify-content-start gap-2">

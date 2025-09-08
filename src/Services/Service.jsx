@@ -32,7 +32,7 @@ const services = [
         id: 4,
         icon: <BsClipboardData className='fs-4 second' />,
         title: "Asperiores Commodit",
-        description: "Non et temporibus minus omnis sed dolor esse consequatur. Cupiditate sed error ea fuga sit provident adipisci neque.",
+        description: "Non et temporibus minus omnis sed dolor esse consequatur. Cupiditate sed error ea fuga sit provident.",
         btn:"Read More"
     }
 ]
