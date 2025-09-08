@@ -24,17 +24,17 @@ function About() {
                             <p><i className="bi bi-check-circle-fill text-primary fs-5 me-2"></i>Ut enim ad minim veniam</p>
                         </div>
                     </div>
-                    <div className="contact d-flex gap-5 flex-lg-row flex-column">
-                        <div className="contact1 d-flex align-items-center justify-content-center gap-3">
+                    <div className="d-flex gap-5 flex-lg-row flex-column">
+                        <div className="d-flex align-items-center justify-content-center gap-3">
                             <img src={image2} alt="" style={{ width: "60px", height: "60px", borderRadius: "50%", objectFit: "cover" }} />
                             <div className="">
                                 <p>Mario Smith</p>
                                 <p style={{ color: "var(--main-color)" }}>CEO & Founder</p>
                             </div>
                         </div>
-                        <div className="contact2 shadow-lg py-2 px-4 gap-3 d-flex align-items-center justify-content-center">
+                        <div className="py-2 px-4 gap-3 d-flex align-items-center justify-content-center">
                             <IoCall className='text-primary fs-3' />
-                            <div className="">
+                            <div>
                                 <p>Call us anytime</p>
                                 <span className='fw-bold' style={{ color: "var(--black-color)" }}>+123 456-789</span>
                             </div>
